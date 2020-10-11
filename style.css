@@ -58,10 +58,10 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: darkblue;
+  border-left: 2px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(128, 128, 128);
   color: white;
 }
 
