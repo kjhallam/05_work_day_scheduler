@@ -18,12 +18,20 @@ $("Row-5").attr("data-time", moment("5:00 pm", "h:mm:ss a").format("LT"));
 $(document).ready(function () {
     renderSchedule();
 
+    var currentDay = moment().format("MMM Do YYYY");
+
    $("#currentDay").text(currentDay); 
-   console.log(ready);
+
+   for (var t = 1; t <= 12; t++)
+        var timeInput = $("Row" + t + "#").attr("data-time");
+
+        var timeInputInt = parseInt(timeInput);
+        console.log(timeInputInt);
+
 })
 
 function renderSchedule () {
     for(var i = 1; i <= 12; i++) {
         $("Row" + i + "#").value(localStorage.getItem(i));
-    }
+    } 
 }
