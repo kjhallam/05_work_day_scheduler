@@ -9,17 +9,20 @@ textarea{
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 3px solid black;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: lightgray;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  background-color: lightseagreen;
+  color:black;
+  border-radius: 5px;
+  border-bottom: 3px solid darkgrey;
+  font-family: 'Allerta Stencil', sans-serif;
+
 }
+
 
 .description{
   white-space: pre-wrap;
@@ -27,10 +30,11 @@ textarea{
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .row {
+  font-family: 'Orbitron', sans-serif;
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
@@ -38,7 +42,7 @@ textarea{
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
+  color: black;
   border-top: 2px solid #000000;
 }
 
@@ -58,14 +62,15 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 2px solid black;
+  border-left: 2px solid lightseagreen;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: rgb(128, 128, 128);
-  color: white;
+  background-color: lightseagreen;
+  color: whitesmoke;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
